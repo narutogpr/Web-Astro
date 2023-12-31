@@ -1,0 +1,63 @@
+---
+import HeaderButton from "./HeaderButton.astro";
+console.log("javascript") 
+---
+
+<header class="py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6">
+    <div class="mx-auto text-center mb-8 lg:mb-16">
+        <h2 class="mb-4 text-5xl tracking-tight font-extrabold text-white">
+            Emprendimiento Social ⚖️
+        </h2>
+        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            Desarrollado por miembros del Instituto Politécnico Nacional
+            UPIICSA
+        </p>
+
+        <nav 
+		class="flex flex-col items-center justify-between w-full text-center md:flex-row"
+ 		 > 
+  			<HeaderButton href="/index"> 
+				<svg  
+                 slot="antes"
+                    width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="White" fill="none" stroke-linecap="round" stroke-linejoin="round">
+				<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+				<path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+				<path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+				<path d="M10 12h4v4h-4z" />
+			  </svg> 
+			  Inicio
+              </HeaderButton>
+  			<HeaderButton class="text-white" href=/about>
+				<svg   
+                 slot="antes" 
+                    width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+				<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+				<path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+				<path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+				<path d="M16 3.13a4 4 0 0 1 0 7.75" />
+				<path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+			  </svg>
+			  Colaboradores
+            </HeaderButton>
+  			<HeaderButton href=/oldest>
+				<svg 
+                slot="despues"
+                   width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+					<path d="M5 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+					<path d="M9 4m0 1a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1z" />
+					<path d="M5 8h4" />
+					<path d="M9 16h4" />
+					<path d="M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041z" />
+					<path d="M14 9l4 -1" />
+					<path d="M16 16l3.923 -.98" />
+				  </svg>
+				Proyectos
+            </HeaderButton>
+  		</nav>
+
+    </div>
+
+
+
+</header>
