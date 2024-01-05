@@ -1,14 +1,30 @@
 --- 
-import HeaderButton from '../components/HeaderButton.astro';
 import Layout from '../layouts/Layout.astro';//lo encerrao en os puntos es para type script
 ---
 
 <Layout title="Emprendimiento Social">
+   
+    <div class="flex flex-col items-center justify-between text-center md:flex-row w-4/5 mx-auto text-white p-5">
+        <div class="text-left">
+            <h1 class="text-center text-6xl font-bold mb-4">Emprendimiento Social</h1>
+            <p class="w-4/5 items-center text-5x1 justify-between mx-auto mb-4">Porque los negocios no son solo para generar empleos, también pueden influir para mejorar su entorno.</p>           
+        </div>
+        <div class="my-5 flex justify-center">
+            <img src="src/IMG/DALL·E 2023-12-31 12.48.37 - An illustration of a vibrant and dynamic social enterprise with a diverse team working together. The scene includes a building with a 'Social Enterpri.png" alt="Bienestar Social" class="max-w-full h-auto" />
+        </div>
+    </div>
 
+     <div 
+        class="flex flex-col items-center justify-between w-4/5 text-center md:flex-row w-4/5 mx-auto text-white p-5">
+        <div ><a href="/MapaMental" role="button" class=" inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-center">
+            Comienza a explorar
+        </a>
+        </div>
+        <div>
+            <p class="mt-4 my-auto">COORDINADOR Dr Raúl Junior Sandoval Gómez</p>    
+         </div>    
+        
+    </div>
 	
 
 </Layout>
-
-<style>
-	
-</style>

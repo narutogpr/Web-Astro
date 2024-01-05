@@ -1,5 +1,6 @@
 ---
-import Header from '../components/Header.astro';
+
+import Navegacion from '../components/Navegacion.astro';
 
 interface Props {
 	title: string;
@@ -7,52 +8,75 @@ interface Props {
 
 const { title } = Astro.props;
 ---
-
-<!doctype html>
-<html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<main>
-		<Header />
-			<slot />
-		</main>
-		
-
-	</body>
+<!DOCTYPE html>
+<html lang="ES-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprendimiento Social</title>
+    <style>
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: white; 
+            color: #7B1E3A;/* Color guinda */
+        }
+        .header > div {
+            /* Se asume que las imágenes ocupan un 20% del header en los extremos y el texto un 60% en el centro */
+            flex: 1; /* Para los divs de las imágenes */
+            text-align: center;
+        }
+        .header > div.header-main {
+            flex: 3; /* Para el div central */
+        }
+        /* Estilos adicionales para ajustar el texto y las imágenes */
+        .header img {
+            max-width: 80%;
+            height: 10em;
+        }
+       
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="justify-center">
+            <!-- Logotipo IPN -->
+            <img src="src/IMG/logo-ipn.png" alt="Logotipo IPN">
+        </div>
+        <div class="header-main font-bold font-large text-4xl justify-center">
+            <!-- Texto principal -->
+            <h1>INSTITUTO POLITÉCNICO NACIONAL</h1>
+            <h2>UNIDAD PROFESIONAL DE INGENIERÍA CIENCIAS SOCIALES Y ADMINISTRATIVAS</h2>
+        </div>
+        <div class="justify-center">
+            <!-- Logotipo UPIICSA -->
+            <img src="src/IMG/upiicsa-84945.png" alt="Logotipo UPIICSA">
+        </div>
+    </header>
+	<div>
+		<Navegacion />
+	</div>
+	<div>
+		<slot />
+	</div>
+	<div>
+		<header class="header">
+			
+			<p>Página desarrolada por la Sección de Estudios de Posgrado e Investigación</p>
+			<p class="text-white"> Diseñado por Gabriel Perez Rios</p>
+			<p>Av. Té 950, Granjas México, Iztacalco, 08400 Ciudad de México, CDMX</p>
+		</header>
+	</div>
+</body>
 </html>
+
 <style is:global>
-	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
-	}
 	html {
 		font-family: system-ui, sans-serif;
 		background: #7B1E3A;
 		background-size: 224px;
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
+
 </style>
