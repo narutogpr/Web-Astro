@@ -10,5 +10,5 @@ export default defineConfig({
   adapter: netlify({
     edgeMiddleware: true
   }),
-  
+  include: ['./src/**','./public/**']
 });
