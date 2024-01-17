@@ -7,8 +7,6 @@ import netlify from "@astrojs/netlify";
 export default defineConfig({
   integrations: [tailwind()],
   output: "server",
-  adapter: netlify({
-    edgeMiddleware: true
-  }),
-  include: ['./src/**','./public/**']
+  adapter: netlify(),
+  include: ['./src/**','./public/**'],
 });
