@@ -1,0 +1,48 @@
+/* empty css                               */
+import { c as createAstro, d as createComponent, r as renderTemplate, g as renderComponent, m as maybeRenderHead } from '../astro_rGwiYvv8.mjs';
+import 'kleur/colors';
+import 'html-escaper';
+import 'clsx';
+import { $ as $$Layout } from './5Colombia1_GA3bnbYu.mjs';
+
+const $$Astro = createAstro();
+const $$Resumen = createComponent(async ($$result, $$props, $$slots) => {
+  const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
+  Astro2.self = $$Resumen;
+  return renderTemplate`${renderComponent($$result, "Layout", $$Layout, { "title": "Resumen" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<div class="text-justify w-4/5 mx-auto bg-white p-5"> <h1 class="text-4xl font-bold text-gray-800">Resumen</h1> <div></div> <p class="text-base mt-4 text-gray-600">
+El emprendimiento social se creó a base de una necesidad social como una renovación del campo y el activismo social, coincidiendo en un debate sobre las implicaciones de implantar o no Responsabilidad Social Corporativa (RSC). Al permitir y promover la integración de una variedad de acciones y agentes socioeconómicos en las empresas y la aparición de la teoría de los grupos de interés de Freeman. El emprendimiento social hizo posible nuevas formas y expresiones de innovación social que dieron lugar tanto a nuevos modelos de negocios como a nuevas prácticas, estrategias y filosofías corporativas, este artículo pretende aproximarse a la definición del emprendimiento social, describir por qué en sus inicios el emprendimiento social se estudiaba desde una perspectiva económica hoy en día las investigaciones parten desde una perspectiva más psicológica y justificar su necesario estudio en el campo académico.
+</p> <div></div> <h1 class="text-4xl font-bold text-gray-800">Introducción</h1> <p></p> <p class="text-base mt-4 text-gray-600">
+El concepto de emprendimiento social tiene raíces históricas profundas, aunque su formulación y reconocimiento como un campo específico de actividad empresarial y social se ha desarrollado en las últimas décadas.
+</p> <p class="text-base mt-4 text-gray-600">
+A lo largo de la historia, ha habido individuos y organizaciones que han buscado abordar problemas sociales y ambientales a través de iniciativas empresariales. Ejemplos tempranos incluyen a figuras como Robert Owen, fue un fabricante y reformador galés del siglo XIX. Nació el 14 de mayo de 1771 en Newtown, Montgomeryshire, Gales, y falleció el 17 de noviembre de 1858 en Newtown.
+</p> <p class="text-base mt-4 text-gray-600">
+Fue uno de los defensores más influyentes del socialismo utópico a principios del siglo XIX. Owen implementó programas de bienestar social e industrial; promovió ideas y reformas sociales, incluyendo la educación obligatoria, la reducción de la jornada laboral y la mejora de las condiciones de trabajo.
+</p> <p class="text-base mt-4 text-gray-600">
+También abogó por la igualdad de género y la cooperación entre empleadores y empleados. En el siglo XIX estableció fábricas modelo con condiciones laborales y viviendas mejores para los trabajadores, y Muhammad Yunus, fundador del Grameen Bank en Bangladesh, que promovió el microcrédito para combatir la pobreza.
+</p> <p class="text-base mt-4 text-gray-600">
+Década de 1960 y 1970: Durante este período, hubo un aumento en el interés por la responsabilidad social corporativa y la idea de que las empresas deberían contribuir positivamente a la sociedad.
+</p> <p class="text-base mt-4 text-gray-600">
+Se establecieron términos como "inversiones sociales" y "empresas con conciencia social". A medida que la tecnología avanzaba y se desarrollaban nuevas industrias, surgieron oportunidades para emprendedores que buscaban crear negocios con un potencial de crecimiento rápido y a gran escala.
+</p> <p class="text-base mt-4 text-gray-600">
+En la creación de la tecnología con la creación de empresas como Microsoft y Apple, estas compañías fueron pioneras en la creación de productos y servicios innovadores que tenían el potencial de llegar a un mercado global y generar un crecimiento exponencial.
+</p> <p class="text-base mt-4 text-gray-600">
+En la década de 1970 y 1980: El concepto de emprendimiento escalable se consolidó aún más con el surgimiento de Silicon Valley en California. Esta región se convirtió en un centro de innovación y emprendimiento, donde se crearon numerosas empresas de tecnología que buscaban desarrollar productos y servicios escalables.
+</p> <p class="text-base mt-4 text-gray-600">
+Estos emprendimientos suelen tener un enfoque global y buscan aprovechar las oportunidades que ofrece el mercado a gran escala. Estos emprendimientos demuestran cómo en la década de 1980 fue impulsado por la innovación tecnológica y la capacidad de crecimiento rápido. Estas empresas lograron aprovechar las oportunidades emergentes en el mercado y desarrollar modelos de negocio escalables que les permitieron alcanzar un éxito significativo, que se ve reflejado en la actualidad.
+</p> <p class="text-base  mt-4 text-gray-600">
+Años 90 en adelante: En Estados Unidos surge la Social Entreprise Iniciative, un programa de investigación y enseñanza lanzado por Harvard Business School. A continuación de esa iniciativa pionera, otras grandes universidades y fundaciones del mismo país siguieron los mismos pasos e implementaron programas de capacitación y apoyo a los emprendedores sociales (Les repères de l’AVISE, 2007).
+</p> <p class="text-base mt-4 text-gray-600">
+Por otra parte, en Europa la noción de emprendimiento social como tal emerge en el mismo período en el seno de la economía social y de su tradición cooperativa y mutualista (Les repères de l’AVISE, 2007).
+</p> <p class="text-base mt-4 text-gray-600">
+En Italia se crea un estatuto especial de “cooperativas sociales” que se desarrolla fuertemente con el objeto de responder a necesidades mal satisfechas o insatisfechas por los servicios públicos.
+</p> <p class="text-base mt-4 text-gray-600">
+De ahí, nuevas dinámicas empresariales vieron luz en otros países. Aunque diferentes en la forma y la intensidad, las experiencias de cada país compartieron rasgos comunes:
+</p> <ul> <li>-Multiplicación de las empresas sociales (entre otros sectores: inserción, servicios de proximidad, medioambiente, servicios sociales y comercio justo).</li> <li>-Creación de nuevos estatutos y marcos jurídicos.</li> <li>-Emergencia de nuevos dispositivos de creación, desarrollo y acompañamiento de empresas sociales.</li> <li>-Incremento en la audiencia de estos proyectos sociales.</li> <li>-Son el resultante de iniciativas privadas lideradas por ciudadanos preocupados por defender el interés colectivo, por cambiar la sociedad.</li> <li>-Son indisociables de la noción de innovación social, bien sea a nivel de la oferta de bien o servicios propuestos, o a nivel de la creación de valor social y económico; bien sea en el modelo económico y de movilización de recursos.</li> <li>-Pertenecen plenamente a la economía de mercado por mucho que las utilidades no representen un fin en sí, sino un medio para lograr un objetivo social.</li> </ul> <h1 class="text-4xl mt-5 font-bold text-gray-800">Propuesta de Modelo de Emprendimiento Social</h1> <div></div> <p class="text-base mt-4 text-gray-600">
+La figura siguiente, muestra la interrelación del emprendimiento social con las áreas lucrativas, así como las no lucrativas y su relación con la rentabilidad y la respuesta a necesidades sociales.
+</p> <div> <img src="/DiagramaEmprendimiento.jpg" alt="Diagrama emprendimiento"> </div> </div> ` })}`;
+}, "C:/Users/gabo/Documents/PaginaWeb/planetary-point/src/pages/Resumen.astro", void 0);
+
+const $$file = "C:/Users/gabo/Documents/PaginaWeb/planetary-point/src/pages/Resumen.astro";
+const $$url = "/Resumen";
+
+export { $$Resumen as default, $$file as file, $$url as url };
