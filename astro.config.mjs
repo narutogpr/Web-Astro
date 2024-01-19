@@ -8,5 +8,5 @@ export default defineConfig({
   integrations: [tailwind()],
   output: "server",
   adapter: netlify(),
-  include: ['./src/**','./public/**'],
+  include: ['./src/**/*','./public/**/*'],
 });
